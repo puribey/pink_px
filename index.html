@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div id="car">
+				<img class="mySlides" src="img/pplogo.svg">
+				<img class="mySlides" src="img/pplogow.svg">
+			</div>
+		</header>
+	</div>
+	<script>
+				var slideIndex = 0;
+				carousel();
+
+				function carousel() {
+				    var i;
+				    var x = document.getElementsByClassName("mySlides");
+				    for (i = 0; i < x.length; i++) {
+				      x[i].style.display = "none"; 
+				    }
+				    slideIndex++;
+				    if (slideIndex > x.length) {slideIndex = 1} 
+				    x[slideIndex-1].style.display = "block"; 
+				    setTimeout(carousel, 2000); // Change image every 2 seconds
+				}
+
+	</script>
+</body>
+</html>
