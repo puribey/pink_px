@@ -9,6 +9,20 @@
 	margin: 0 auto;
 }
 
+
+/*********** HEADER **************/
+
+header {
+	width: 100%;
+	/*height: 78px;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #E6E6E6; 
+}
+
 #cont_logo img {
 	width: 325px;
 	padding-left: 25px;
@@ -58,16 +72,8 @@ nav .ancla:hover .submenu {
 	display: block;
 }
 
-header {
-	width: 100%;
-	/*height: 78px;*/
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
-	border-bottom: 1px solid #E6E6E6; 
-}
+/******** H1 y GALAXY **********/
+
 
 #galaxy {
 	width: 100%;
@@ -85,6 +91,8 @@ h1 {
 	bottom: 20px;
 	right: 50px;
 }
+
+/********* MAIN *************/
 
 main {
 	background-image: url("img/nice.gif");
@@ -171,19 +179,7 @@ main {
 
 }
 
-/* #unicorn {
-	background-image: url("img/stars.gif");
-	background-size: cover ;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 200px;
-	font-family: sans-serif;
-	color: white;
-
-} */
-
-
+/*********** FOOTER ***************/
 
 footer {
 	width: 100%;
@@ -196,3 +192,17 @@ footer {
 	color: white;
 	font-family: sans-serif;
 }
+
+
+/* #unicorn {
+	background-image: url("img/stars.gif");
+	background-size: cover ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	font-family: sans-serif;
+	color: white;
+
+} */
+
