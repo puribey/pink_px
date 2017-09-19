@@ -1,10 +1,12 @@
 @font-face {
-	font-family:"CocoGotic";
- 	src: url(../etc/fonts/CocoGothic-BoldItalic_trial.ttf) format('embedded-opentype');
- 	src: url(../etc/fonts/CocoGothic-Bold_trial.ttf);
- 	src: url(../etc/fonts/CocoGothic-HeavyItalic_trial.ttf);
- 	src: url(../etc/fonts/CocoGothic-Heavy_trial.ttf);}
+	font-family:"CocoGothic";
+ 	src: url(../etc/fonts/CocoGothic-BoldItalic_trial.ttf) ;
+}
 
+@font-face{
+	font-family: "CocoGothic-Light";
+	src: url(../etc/fonts/CocoGothic-Light_trial.ttf);
+}
 @font-face {
 	font-family:"Libel"; 	
  	src:url(../etc/fonts/libel-suit-rg_0.ttf);}
