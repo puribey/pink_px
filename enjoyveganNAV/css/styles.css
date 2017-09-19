@@ -221,6 +221,23 @@ h1{
 display:none;
 
 }
+}
 
+
+@media (max-width:420px){
+
+
+.ListaNavegador{
+display:none;
+}
+
+
+h1{
+	display:none;
+}
+
+.imagen{
+	width:300px;
+}
 
 }
