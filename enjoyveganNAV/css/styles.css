@@ -13,21 +13,18 @@
 body{
 	background-image: url(../img/fondo.jpg);
 	background-attachment: fixed;
-    
 }
 
-
-nav div h1{
+h1{
 	position:absolute;
 	top:0.7em;
 	left:1em;
-	z-index: 2;
+	z-index: 2;									/*titulo*/
 }
 
+nav div img{
+	float: right;  								 /*logo*/   
 
-
-nav img{
-	float: right;
 }
 
 a:hover{
@@ -35,13 +32,13 @@ a:hover{
 }
 
 .container{
-	margin-top:2em;
+	margin-top:2em;					/*margen superior container*/
 }
 
 #baner{
 	background-color: #092053;
 	border-radius:1em;
-	height:13em;
+	height:190px;			/*rectangulo azul*/
 	font-family:"Libel";
 	letter-spacing: 2px;
 	text-shadow: 2px 2px 5px black;
@@ -50,12 +47,12 @@ a:hover{
 }
 
 .text-cream{
-	color:#F3E4AE;
+	color:#F3E4AE;				
 	font-size:1.5em;
 }
 
 .text-bordo{
-	color:#890644;
+	color:#890644;					/*colores titulo*/
 	font-size:1.5em;
 }
 
@@ -66,13 +63,17 @@ a:hover{
 
 .Idioma{
 	position:absolute;
-	z-index: 2;
+	z-index:2;					/*div idiomas*/
 	top:8em;
 	left:2.7em;
 }
 
+.barra:hover{
+	color:#F3E4AE;
+}
+
 .TextSizeMedio{
-	font-size:2.2em;	
+	font-size:2vw;		
 
 }
 
@@ -81,7 +82,8 @@ a:hover{
 	display: flex;
 	flex-direction:row;
 	justify-content:space-around;
-	position:absolute;
+	position:absolute;					/*div todas las solapas + links*/
+	top:13em;
 	left:2em;
 	z-index:-1;
 	font-family:"Libel";
@@ -91,71 +93,134 @@ a:hover{
 }
 
 .ItemsNavegador{
-	font-size: 3em;
+	font-size:3em;
 	width:18%;
-	height:4em;
+	height:4em;					/*div individual cada solapa*/
 	border-radius:0.3em;
 	padding:1em;
-	text-align: center;
 	position:relative;
-	bottom:100px;
+	bottom:130px;
 	box-shadow: 2px 2px 5px black;
 }
 .ItemsNavegador:hover{
-	font-size: 3em;
-	width:18%;
-	height:4em;
-	border-radius:0.3em;
-	padding:1em;
-	text-align: center;
-	position:relative;
-	bottom:40px;
-	box-shadow: 2px 2px 5px black;
+	position:relative;			/*hover del div individual cada solapa*/
+	bottom:100px; 
 }
+
+.Pedidos:hover{
+	position:relative;			/*hover del div individual solapa PEDIDOS que es mas larga*/
+	bottom:40px;
+}
+
 
 .Inicio{
 	background-color:#890644;
-	color:white;
+	text-align:center;					
 }
 .Menu{
 	background-color:#F3E4AE;
+	text-align:center;
 }
 
 .Locales{
-	background-color:#F49D48;
+	background-color:#F49D48;		/*colores solapas*/
+	text-align:center;
 }
 
 .Contacto{
 	background-color:#890644;
+	text-align:center;
 }
 
-.Pedido{
+.Pedidos{
 	background-color:#F3E4AE;
-}
+	text-align:center;
 
+}
 
 .linkNav{
 	color:white;
-	position:relative;
-	top:1.5em;
+	position:relative;			/*acomodo links en solapa*/
+	top:1.5em;	
 }
-
 
 .linkNav:hover{
-	color:#0080BB;
+	color:#0080BB;			
 }
 
-
-#linkNavPed{
-	color:white;
-	
-}
-
-#linkNavPed:hover{
-	color:#0080BB;
-	
+#PedidosLink{
+	position:relative;			/*acomodo links en solapa pedidos por ser mas larga*/	
+	top:0em;	
 }
 
 
 
 
+@media (min-width:992px) and (max-width:1199px){
+
+
+.ItemsNavegador{
+	font-size:2.5em;
+	position:relative;
+	bottom:110px;
+	text-align: center;
+	padding:auto;
+}
+
+.ItemsNavegador:hover{
+	position:relative;
+	bottom:75px; 
+
+}
+
+.Pedidos:hover{
+	position:relative;	
+	bottom:20px;
+}
+
+.linkNav{
+	position:relative;
+	right:0.1em;
+
+}
+
+
+
+}
+
+@media (max-width:992px){
+
+.ListaNavegador{
+display:none;
+
+}
+
+h1{
+	display: flex;
+	flex-direction:column;
+	top:0;
+	left:2em;
+	font-size:3vh;
+}
+
+.delete{
+	display: none;
+}
+
+.Idioma{
+	display:none;
+
+}
+
+}
+
+@media (max-width:768px){
+
+
+.ListaNavegador{
+display:none;
+
+}
+
+
+}
