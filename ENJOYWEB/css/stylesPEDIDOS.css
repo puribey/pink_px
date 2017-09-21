@@ -17,6 +17,9 @@ body{
 	background-attachment: fixed;
 }
 
+
+/*****************************NAVEGADOR INICIO*************************************/
+
 h1{
 	position:absolute;
 	top:0.7em;
@@ -29,8 +32,8 @@ nav div img{
 
 }
 
-a:hover{
-	text-decoration:none;
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
 }
 
 .container{
@@ -109,6 +112,11 @@ a:hover{
 	bottom:100px; 
 }
 
+.ItemsNavegador.Pedidos{
+	position:relative;			/*BAJA SOLAPA PEDIDOS*/
+	bottom:40px; 
+}
+
 .Pedidos:hover{
 	position:relative;			/*hover del div individual solapa PEDIDOS que es mas larga*/
 	bottom:40px;
@@ -143,18 +151,20 @@ a:hover{
 .linkNav{
 	color:white;
 	position:relative;			/*acomodo links en solapa*/
-	top:1.5em;	
+	top:1.5em;
+	text-decoration: none;
 }
 
-.linkNav:hover{
-	color:#0080BB;			
+.linkNav a:hover, .linkNav a:visited, .linkNav a:active{
+	color:#0080BB;	
+	text-decoration: none;
 }
+
 
 #PedidosLink{
 	position:relative;			/*acomodo links en solapa pedidos por ser mas larga*/	
 	top:0em;	
 }
-
 
 
 
@@ -243,3 +253,6 @@ h1{
 }
 
 }
+
+
+/*****************************NAVEGADOR FIN*************************************/
