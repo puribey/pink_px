@@ -1,0 +1,196 @@
+@font-face {
+	font-family:"CocoGotic";
+ 	src: url(../etc/fonts/CocoGothic-BoldItalic_trial.ttf) format('embedded-opentype');
+ 	src: url(../etc/fonts/CocoGothic-Bold_trial.ttf);
+ 	src: url(../etc/fonts/CocoGothic-HeavyItalic_trial.ttf);
+ 	src: url(../etc/fonts/CocoGothic-Heavy_trial.ttf);}
+
+@font-face {
+	font-family:"Libel"; 	
+ 	src:url(../etc/fonts/libel-suit-rg_0.ttf);}
+ 
+
+body{
+	background-image: url(../img/fondo.jpg);
+	background-attachment: fixed;
+    
+}
+
+
+nav div h1{
+	position:absolute;
+	top:0.7em;
+	left:1em;
+	z-index: 2;
+}
+
+
+
+nav img{
+	float: right;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.container{
+	margin-top:2em;
+}
+
+#banner{
+	background-color: #092053;
+	border-radius:1em;
+	height:13em;
+	font-family:"Libel";
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px black;
+	box-shadow: 2px 2px 5px black;
+
+}
+
+.text-cream{
+	color:#F3E4AE;
+	font-size:1.5em;
+}
+
+.text-bordo{
+	color:#890644;
+	font-size:1.5em;
+}
+
+.text-naranja{
+	color:#F49D48;
+	font-size:1.5em;
+}
+
+.Idioma{
+	position:absolute;
+	z-index: 2;
+	top:8em;
+	left:2.7em;
+}
+
+.TextSizeMedio{
+	font-size:2.2em;	
+
+}
+
+.ListaNavegador{
+	width:95%;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	position:absolute;
+	left:2em;
+	z-index:-1;
+	font-family:"Libel";
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px black;
+
+}
+
+.ItemsNavegador{
+	font-size: 3em;
+	width:18%;
+	height:4em;
+	border-radius:0.3em;
+	padding:1em;
+	text-align: center;
+	position:relative;
+	bottom:100px;
+	box-shadow: 2px 2px 5px black;
+}
+.ItemsNavegador:hover{
+	font-size: 3em;
+	width:18%;
+	height:4em;
+	border-radius:0.3em;
+	padding:1em;
+	text-align: center;
+	position:relative;
+	bottom:40px;
+	box-shadow: 2px 2px 5px black;
+}
+
+.Inicio{
+	background-color:#890644;
+	color:white;
+}
+.Menu{
+	background-color:#F3E4AE;
+}
+
+.Locales{
+	background-color:#F49D48;
+}
+
+.Contacto{
+	background-color:#890644;
+}
+
+.Pedido{
+	background-color:#F3E4AE;
+}
+
+
+.linkNav{
+	color:white;
+	position:relative;
+	top:1.5em;
+}
+
+
+.linkNav:hover{
+	color:#0080BB;
+}
+
+
+#linkNavPed{
+	color:white;
+	
+}
+
+#linkNavPed:hover{
+	color:#0080BB;
+	
+}
+
+
+.veinticuatro {
+	position: absolute;
+	width:75%;
+	margin-left: 90px;
+	top:26em;
+	background-color: #F3E4AE;
+	border-radius:1em;
+	height:10em;
+	font-family:;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 3px black;
+	box-shadow: 1px 1px 4px black;
+}
+
+.veinticuatro h1 {
+	float: left;
+	margin-top:35px;
+	margin-left: 15px;
+}
+
+.veinticuatro p {
+	margin-top:23px;
+	margin-left: 15px;
+	float: right;
+	color: #092053;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.text-azul {
+	color: #092053;
+	font-size: 1.5em;
+}
+
+.TextSizePeque {
+	font-size: 1em;
+}
