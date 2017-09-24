@@ -39,7 +39,8 @@ Menú
 
 **Sándwiches**
 > - Sándwich de palta, rúcula, tomate y mayonesa de frambuesa ----- $ 90
-	Palta, rúcula, tomate, cebolla y un toque de aceite de oliva dentro de pan de sándwich, acompañado con una mayonesa de frambuesa a base de leche de soja. <!-- Esto iría en letra más pequeña -->
+	Palta, rúcula, tomate, cebolla y un toque de aceite de oliva dentro de pan de sándwich, acompañado con una mayonesa de frambuesa a base de leche de soja. 
+	<!-- Esto iría en letra más pequeña -->
 > - Shawarma con salsa de yoghurt --------------------------------------- $ 80
 	Shawarma de seitán con salsa de yoghurt a base de soja. <!-- Esto iría en letra más pequeña -->
 > - Fajitas express ------------------------------------------------------------ $ 70
