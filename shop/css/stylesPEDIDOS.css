@@ -263,6 +263,8 @@ h1{
 
 /*****************************NAVEGADOR FIN*************************************/
 
+/*****************************BANNER INICIO*************************************/
+
 .veinticuatro {
 	position: absolute;
 	width:76%;
@@ -301,6 +303,10 @@ h1{
 .TextSizePeque {
 	font-size: 1em;
 }
+
+/*****************************BANNER FIN*************************************/
+
+/*****************************PLATO DEL DIA INICIO*************************************/
 
 .container01 {
 	margin-left: 7em;
@@ -467,3 +473,11 @@ h1{
 	font-weight: normal;
 	letter-spacing: 1px;
 }
+
+.custom-select {
+	border-radius: 3px;
+	width: 35px;
+	height: 25px;
+}
+
+/*****************************PLATO DEL DIA FIN*************************************/
