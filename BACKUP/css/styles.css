@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+header {
+	width: 100%;
+	text-align: center;
+	background-color:rgba(255,192,203,0.5);
+}
+
+header img {
+	width:500px;
+}
+
+.mySlides{
+	width: 100%;
+	text-align: center;
+}
