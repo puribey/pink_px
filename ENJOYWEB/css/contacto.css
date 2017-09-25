@@ -1,3 +1,4 @@
+
 /*---------------FUENTES--------------------*/
 @font-face {
     font-family: "Libel";
@@ -189,8 +190,8 @@ a:link, a:visited, a:hover, a:active{
     bottom:100px; 
 }
 
-.ItemsNavegador.Menu{
-    position:relative;          /*BAJA SOLAPA MENU*/
+.ItemsNavegador.Inicio{
+    position:relative;          /*BAJA SOLAPA INICIO*/
     bottom:100px; 
 }
 
@@ -244,186 +245,53 @@ a:link, a:visited, a:hover, a:active{
 }
 
 
-/*****************************INICIO MAIN*************************************/
+/*--------------CSS DE CONTACTO-------------*/
 
-
-.main{
-	background-color: #092053;
-	border-radius: 1em;
-	margin: 0 auto;
-	margin-top:70px;
-	margin-bottom: 25px;
-	padding: 15px 15px;
-	position: relative;
-	font-family: "Libel";
-	letter-spacing: 0.1em;
-	font-size: 20px;
-	height: 650px;
+.datos {
+    margin-top: 10px;
+    margin-bottom: 18px;
 }
-
-.cat{
-	color: white;
-	list-style-type: none;
-	padding: 15px 10px;
-	width: 90%;
+.texto_bordo1 {
+    font-size: 18px;
+    margin-left: 30px;
 }
-
-.cat ul{
-list-style-type: none;
+.texto_bordo2 {
+    text-align: right;
+    margin-bottom: 0;
+    margin-right: 30px;
+    font-size: 18px;
 }
-
-.cat:hover{
-	background-color:#890644;
+.formulario {
+    padding: 30px 120px;
+    background-color: #092053;
+    border-radius: 10px;
+}
+.boton {
+    text-align: right;
+}
+.caja {
+    padding-bottom: 150px;
 }
 
-.cat img {
-	border-radius: 0.5em;
+.fondo_bordo {
+    background-color: #AF1E45;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 120px;
 }
-
-.sub1{
-	width: 76.5%;
-	height: 95%;
-	border-radius: 1em;
-	position: absolute;
-	z-index: 10;
-	top: 15px;
-	left: 200px;
-	list-style: none;
-	background-color:#890644;
-	display: none;
-	padding-top: 15px;
+.alto_contacto {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
-
-.cat:hover .sub1 {
-	display: block;
-}
-
-.sub2{
-	width: 76.5%;
-	height: 95%;
-	border-radius: 1em;
-	position: absolute;
-	z-index: 10;
-	top: 15px;
-	left: 200px;
-	list-style: none;
-	background-color:#890644;
-	display: none;
-	padding-top: 15px;
-}
-
-.cat:hover .sub2 {
-	display: block;
-}
-
-.sub3{
-	width: 76.5%;
-	height: 95%;
-	border-radius: 1em;
-	position: absolute;
-	z-index: 10;
-	top: 15px;
-	left: 200px;
-	list-style: none;
-	background-color:#890644;
-	display: none;
-	padding-top: 15px;
-}
-
-.cat:hover .sub3 {
-	display: block;
-}
-
-.sub4{
-	width: 76.5%;
-	height: 95%;
-	border-radius: 1em;
-	position: absolute;
-	z-index: 10;
-	top: 15px;
-	left: 200px;
-	list-style: none;
-	background-color:#890644;
-	display: none;
-	padding-top: 15px;
-}
-
-.cat:hover .sub4 {
-	display: block;
-}
-
-.sub5{
-	width: 76.5%;
-	height: 95%;
-	border-radius: 1em;
-	position: absolute;
-	z-index: 10;
-	top: 15px;
-	left: 200px;
-	list-style: none;
-	background-color:#890644;
-	display: none;
-	padding-top: 15px;
-}
-
-.cat:hover .sub5 {
-	display: block;
-}
-
-.drop{
-	text-align: center;
-	background-color:#F3E4AE;
-	padding: 15px;
-	margin-top: 14px;
-	width: 95%;
-	display: none;
-	position: absolute;
-	z-index: 20;
-	border-radius: 0.5em;
-}
-
-.d1{
-	top: 80px;
-}
-.d2{
-	top: 52px;
-}
-.d3{
-	top: 24px;
-}
-
-h3 {
-	color: #890644;
-	font-size: 20px;
-}
-
-.drop img{
-	width: 75%;
-	height: auto;
-}
-
-.drop p {
-	color: black;
-	font-size: 16px;
-}
-.cat li{
-	position: relative;
-}
-.cat li:hover{
-	color:#F3E4AE;
-}
-.cat li:hover .drop {
-	display: block;
-}
-
-
 
 /*-------------CSS DE FOOTER-------------- */
 footer {
     background-color: #092053;
     margin-top: 600px;
     margin: 0 auto;
-    border-radius: 1em;
+    border-radius: 5px;
     color: white;
 }
 .alineacion_footer {
@@ -452,8 +320,6 @@ p {
 
 /*---------------MEDIA QUERIES--------------*/
 
-/* TABLET */
-
 @media (min-width: 992px) and (max-width: 1199px) {
     .ItemsNavegador {
         font-size: 2.5em;
@@ -474,10 +340,6 @@ p {
         position: relative;
         right: 0.1em;
     }
-    .ItemsNavegador.Menu{
-	    position:relative;          /*BAJA SOLAPA MENU*/
-	    bottom:80px; 
-	}
 }
 @media (max-width: 992px) {
             .ListaNavegador{
@@ -499,46 +361,11 @@ p {
             float:left;
         }
 
-        /* MENU */
-		
-		.main {
-			height: 100%;
-			margin: 25px 0px;
-
-		}
-
-        .cat {
-        	position: relative;
-        	width: 95%;
-        	border-radius: 0.5em;
-        }
-
-        .sub1, .sub2, .sub3 ,.sub4, .sub5 {
-			top: 0px;
-			left:-10px;
-			position: relative;
-			width: 95%;
-
-		}
-
-     	.drop {
-     		position: relative;
-     		width: 100%;
-     	}
-
-
-		.drop img{
-			width: 95%;
-			height: auto;
-		}
-
-     	.d1, .d2, .d3 {
-     		top: 0px;
-     	}
-
+    /* Query de contacto*/
+       .fondo_bordo{margin-top: 15px
+        }      
+    
 }
-
-
 @media (max-width: 768px) {
     body {
         position: relative;
@@ -577,14 +404,18 @@ p {
         left:6vw;
     }
 
-    /* ---------  MENU ------------ */
-    .main {
-    	font-size: 16px;
-    } 
 
-	
+    /*-------Queries del contacto-------*/
 
-
+    .fondo_bordo{margin-top: 15px
+    }
+    .texto_bordo1 {
+        margin-right: 25px;
+        margin-left: 25px
+    }
+    .formulario {
+        padding: 30px 50px;
+    }
     /*-------Queries del footer--------*/
     
     .redes_mobile {
@@ -614,11 +445,7 @@ p {
             margin-left: 0px;}
     .media2{padding-right: 0px;
             padding-left: 0px;} 
-
-
 }
-
-
 
 @media (max-width:558px){
 
@@ -705,8 +532,6 @@ p {
     .copyright {
         font-size: 12px;
     }
-
-
 }
 
 
@@ -751,6 +576,15 @@ p {
     }
 
     
+
+    /*------Queries de Contacto----------*/
+    .texto_bordo1 {
+        margin-right: 25px;
+        margin-left: 25px;
+     }
+     .formulario {
+        padding: 30px 50px;
+     }
     
     /*--------Queries del footer---------*/
     .redes_mobile {
@@ -789,9 +623,8 @@ p {
     .media2{padding-right: 0px;
             padding-left: 0px;}  
     .fondo_bordo{margin-top: 15px
-    }   
-
-  }   
+    }      
+ }   
     
 
 @media (max-width:360px){
@@ -839,8 +672,6 @@ p {
     .copyright {
         font-size: 12px;
     }
-
-    
 }
 
 @media (max-width:300px){
@@ -858,6 +689,4 @@ p {
     .copyright {
         font-size: 12px;
     }
-
 }
-
