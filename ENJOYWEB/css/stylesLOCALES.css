@@ -11,12 +11,7 @@
 	font-family:"Libel"; 	
  	src:url(../etc/fonts/libel-suit-rg_0.ttf);
  }
- 
 
-body{
-	background-image: url(../img/fondo.jpg);
-	background-attachment: fixed;
-}
 
 /********************** Dropdown ***************************/
 .icono-xs{
@@ -103,7 +98,7 @@ body{
 }
 /*****************************NAVEGADOR INICIO*************************************/
 
-h1{
+.baner h1{
 	position:absolute;
 	top:0.7em;
 	left:1em;
@@ -524,3 +519,52 @@ h1{
 
 
 /*****************************NAVEGADOR FIN, SI...JURO QUE ES EL FIN*************************************/
+
+#centrado{
+	background-image: url(../img/Fondo.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.anchos{
+	width: 600px;
+	margin-top: 30px;
+	padding: 15px;
+}
+
+#take{
+	height: 100px;
+	background-color: #fff3c9;
+	display: flex;
+	align-items: center;
+	margin-top: 100px;
+}
+
+#h5{
+	font-size: 40px;
+}
+
+#mariposa{
+	height: 120px;
+	width: 150px;
+}
+
+
+.secciones{
+	background-color: #9e1a58;
+	padding: 10px;
+
+}
+
+#kansas{
+	width: 270px;
+	height: 200px;
+}
+
+
+footer{
+	height: 30px;
+	background-color: #1c1266;
+	margin-bottom: 30px;
+}
