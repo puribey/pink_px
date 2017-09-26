@@ -8,9 +8,9 @@
 	src: url(../etc/fonts/CocoGothic-Light_trial.ttf);
 }
 @font-face {
-	font-family:"Libel"; 	
+	font-family:"Libel";
  	src:url(../etc/fonts/libel-suit-rg_0.ttf);}
- 
+
 
 body{
 	background-image: url(../img/fondo.jpg);
@@ -28,7 +28,7 @@ h1{
 }
 
 nav div img{
-	float: right;  								 /*logo*/   
+	float: right;  								 /*logo*/
 
 }
 
@@ -52,7 +52,7 @@ a:link, a:visited, a:hover, a:active{
 }
 
 .text-cream{
-	color:#F3E4AE;				
+	color:#F3E4AE;
 	font-size:1.5em;
 }
 
@@ -78,7 +78,7 @@ a:link, a:visited, a:hover, a:active{
 }
 
 .TextSizeMedio{
-	font-size:2vw;		
+	font-size:2vw;
 
 }
 
@@ -109,12 +109,12 @@ a:link, a:visited, a:hover, a:active{
 }
 .ItemsNavegador:hover{
 	position:relative;			/*hover del div individual cada solapa*/
-	bottom:100px; 
+	bottom:100px;
 }
 
 .ItemsNavegador.Menu{
 	position:relative;			/*BAJA SOLAPA MENU*/
-	bottom:100px; 
+	bottom:100px;
 }
 
 .Pedidos:hover{
@@ -125,7 +125,7 @@ a:link, a:visited, a:hover, a:active{
 
 .Inicio{
 	background-color:#890644;
-	text-align:center;					
+	text-align:center;
 }
 .Menu{
 	background-color:#F3E4AE;
@@ -156,14 +156,14 @@ a:link, a:visited, a:hover, a:active{
 }
 
 .linkNav a:hover, .linkNav a:visited, .linkNav a:active{
-	color:#0080BB;	
+	color:#0080BB;
 	text-decoration: none;
 }
 
 
 #PedidosLink{
-	position:relative;			/*acomodo links en solapa pedidos por ser mas larga*/	
-	top:0em;	
+	position:relative;			/*acomodo links en solapa pedidos por ser mas larga*/
+	top:0em;
 }
 
 
@@ -181,12 +181,12 @@ a:link, a:visited, a:hover, a:active{
 
 .ItemsNavegador:hover{
 	position:relative;
-	bottom:75px; 
+	bottom:75px;
 
 }
 
 .Pedidos:hover{
-	position:relative;	
+	position:relative;
 	bottom:20px;
 }
 
@@ -381,6 +381,24 @@ list-style-type: none;
 	display: block;
 }
 
+.sub6{
+	width: 76.5%;
+	height: 95%;
+	border-radius: 1em;
+	position: absolute;
+	z-index: 10;
+	top: 15px;
+	left: 200px;
+	list-style: none;
+	background-color:#890644;
+	display: none;
+	padding-top: 15px;
+}
+
+.cat:hover .sub6 {
+	display: block;
+}
+
 .drop{
 	text-align: center;
 	background-color:#F3E4AE;
@@ -426,4 +444,3 @@ h3 {
 .cat li:hover .drop {
 	display: block;
 }
-
