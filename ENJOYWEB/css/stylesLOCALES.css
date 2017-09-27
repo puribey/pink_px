@@ -519,13 +519,23 @@ h1{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	box-sizing: border-box;
 }
 
 .anchos{
 	width: 600px;
 	margin-top: 30px;
-	padding: 10px;
 	border-radius: 5px;
+	padding: 15px;
+}
+
+figure{
+	justify-content: center;
+}
+
+#kansas{
+	height: 200px;
+	width: 300px;
 }
 
 .take{
@@ -533,6 +543,7 @@ h1{
 	background-color: #F3E4AE;
 	display: flex;
 	align-items: center;
+	font-family:"Libel";
 }
 
 #h5{
@@ -545,41 +556,50 @@ h1{
 	height: 120px;
 	width: 150px;
 }
-
 .palermo{
 	background-color: #890644;
 	color: #F49D48;
 	font-size: 1.3em;
+	font-family: "CocoGothic-Light_trial";
 }
 
 .santelmo{
 	background-color: #890644;
 	color: #F49D48;
 	font-size: 1.3em;
+	font-family: "CocoGothic-Light_trial"
 }
 
 .saavedra{
 	background-color: #890644;
 	color: #F49D48;
 	font-size: 1.3em;
+	font-family: "CocoGothic-Light_trial"
 }
 
 #h2{
 	font-size: 2.4em;
 	color:#F49D48;
+	font-family: "CocoGothic"
 }
 
 #h3{
 	font-size: 2.4em;
 	color:#F49D48;
+	font-family: "CocoGothic"
 }
 
 #h4{
 	font-size: 2.4em;
 	color:#F49D48;
+	font-family: "CocoGothic"
 }
 
+.texto{
+	display: flex;
+	align-content: center;
 
+}
 
 
 
@@ -597,6 +617,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding: 20px;
     font-size: 16px;
 }
