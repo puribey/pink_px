@@ -1,211 +1,113 @@
-/*---------------FUENTES--------------------*/
 @font-face {
-    font-family: "Libel";
-    src: url(../etc/fonts/libel-suit-rg_0.ttf);
-}
-@font-face {
-    font-family: "Avantgarde";
-    src: url(../etc/fonts/AVANTGARDE/itc-avant-garde-gothic-std-book-58957161d80eb.otf);
-}
-/*-------------------BODY-------------------*/
-body {
-    background-image: url("../img/Fondo.jpg");
-    background-attachment: fixed;
-}
-/********************** Dropdown ***************************/
-.icono-xs{
-    display:none;
-}
-.dropdown {
-  display: inline-block;
-  position: relative;
-  left:23em;
-  top:7em;
+	font-family:"CocoGothic";
+ 	src: url(../etc/fonts/CocoGothic-BoldItalic_trial.ttf) ;
 }
 
-.dd-button {
-  display: inline-block; 
-  background-color: #092053;
-  cursor: pointer;
-  white-space: nowrap;
+@font-face{
+	font-family: "CocoGothic-Light";
+	src: url(../etc/fonts/CocoGothic-Light_trial.ttf);
 }
-<<<<<<< HEAD
 @font-face {
 	font-family:"Libel";
  	src:url(../etc/fonts/libel-suit-rg_0.ttf);}
 
-=======
 
-.dd-input {
-  display: none;
-}
-
-.dd-menu {
-    font-size: 2em;
-    width:25em;
-    position: absolute;
-    z-index: -1;
-    top:3.3em;
-    right:-20px;
-    border-radius: 4px;
-    padding: 0;  
-    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
-    background-color:rgba(9,32,83,0.6);
-    list-style-type: none;
-}
-
-.dd-input + .dd-menu {
-  display: none;
-} 
-
-.dd-input:checked + .dd-menu {
-  display: block;
-} 
-
-.dd-menu li {
- 
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.dd-menu li a {
-  display: block;
->>>>>>> d17d93716ad383a6be7f456242b7a88b41697144
-
+body{
+	background-image: url(../img/fondo.jpg);
+	background-attachment: fixed;
 }
 
 
-.InicioResponsive:hover{
-    background-color:rgba(137,6,68,1);
-    color:#F3E4AE;
-    text-shadow: none;
-
-
-}
-.MenuResponsive:hover{
-    background-color:rgba(243,228,174,1);
-    color:#092053;
-    text-shadow: none;
-}
-.LocalesResponsive:hover{
-    background-color:rgba(244,157,82,1);
-    color:#092053;
-    text-shadow: none;
-}
-.ContactoResponsive:hover{
-    background-color:rgba(137,6,68,1);
-    color:#F3E4AE;
-    text-shadow: none;
-}
-.PedidosResponsive:hover{
-    background-color:rgba(243,228,174,1);
-    color:#092053;
-    text-shadow: none;
-}
-/*------------CSS DEL NAVBAR----------------*/
+/*****************************NAVEGADOR INICIO*************************************/
 
 h1{
-    position:absolute;
-    top:0.7em;
-    left:1em;
-    z-index: 2;                                 /*titulo*/
+	position:absolute;
+	top:0.7em;
+	left:1em;
+	z-index: 2;									/*titulo*/
 }
 
 nav div img{
-<<<<<<< HEAD
 	float: right;  								 /*logo*/
-=======
-    float: right;                                /*logo*/   
->>>>>>> d17d93716ad383a6be7f456242b7a88b41697144
 
 }
 
 a:link, a:visited, a:hover, a:active{
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .container{
-    margin-top:2em;                 /*margen superior container*/
+	margin-top:2em;					/*margen superior container*/
 }
 
 #baner{
-    background-color: #092053;
-    border-radius:1em;
-    height:190px;           /*rectangulo azul*/
-    font-family:"Libel";
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 5px black;
-    box-shadow: 2px 2px 5px black;
+	background-color: #092053;
+	border-radius:1em;
+	height:190px;			/*rectangulo azul*/
+	font-family:"Libel";
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px black;
+	box-shadow: 2px 2px 5px black;
 
 }
 
 .text-cream{
-<<<<<<< HEAD
 	color:#F3E4AE;
 	font-size:1.5em;
-=======
-    color:#F3E4AE;              
-    font-size:1.5em;
->>>>>>> d17d93716ad383a6be7f456242b7a88b41697144
 }
 
 .text-bordo{
-    color:#890644;                  /*colores titulo*/
-    font-size:1.5em;
+	color:#890644;					/*colores titulo*/
+	font-size:1.5em;
 }
 
 .text-naranja{
-    color:#F49D48;
-    font-size:1.5em;
+	color:#F49D48;
+	font-size:1.5em;
 }
 
 .Idioma{
-    position:absolute;
-    z-index:2;                  /*div idiomas*/
-    top:8em;
-    left:2.7em;
+	position:absolute;
+	z-index:2;					/*div idiomas*/
+	top:8em;
+	left:2.7em;
 }
 
 .barra:hover{
-    color:#F3E4AE;
+	color:#F3E4AE;
 }
 
 .TextSizeMedio{
-<<<<<<< HEAD
 	font-size:2vw;
-=======
-    font-size:2vw;      
->>>>>>> d17d93716ad383a6be7f456242b7a88b41697144
 
 }
 
 .ListaNavegador{
-    width:95%;
-    display: flex;
-    flex-direction:row;
-    justify-content:space-around;
-    position:absolute;                  /*div todas las solapas + links*/
-    top:13em;
-    left:2em;
-    z-index:-1;
-    font-family:"Libel";
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 5px black;
+	width:95%;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	position:absolute;					/*div todas las solapas + links*/
+	top:13em;
+	left:2em;
+	z-index:-1;
+	font-family:"Libel";
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px black;
 
 }
 
 .ItemsNavegador{
-    font-size:3em;
-    width:18%;
-    height:4em;                 /*div individual cada solapa*/
-    border-radius:0.3em;
-    padding:1em;
-    position:relative;
-    bottom:130px;
-    box-shadow: 2px 2px 5px black;
+	font-size:3em;
+	width:18%;
+	height:4em;					/*div individual cada solapa*/
+	border-radius:0.3em;
+	padding:1em;
+	position:relative;
+	bottom:130px;
+	box-shadow: 2px 2px 5px black;
 }
 .ItemsNavegador:hover{
-<<<<<<< HEAD
 	position:relative;			/*hover del div individual cada solapa*/
 	bottom:100px;
 }
@@ -213,73 +115,53 @@ a:link, a:visited, a:hover, a:active{
 .ItemsNavegador.Menu{
 	position:relative;			/*BAJA SOLAPA MENU*/
 	bottom:100px;
-=======
-    position:relative;          /*hover del div individual cada solapa*/
-    bottom:100px; 
-}
-
-.ItemsNavegador.Menu{
-    position:relative;          /*BAJA SOLAPA MENU*/
-    bottom:100px; 
->>>>>>> d17d93716ad383a6be7f456242b7a88b41697144
 }
 
 .Pedidos:hover{
-    position:relative;          /*hover del div individual solapa PEDIDOS que es mas larga*/
-    bottom:35px;
+	position:relative;			/*hover del div individual solapa PEDIDOS que es mas larga*/
+	bottom:40px;
 }
 
 
 .Inicio{
-<<<<<<< HEAD
 	background-color:#890644;
 	text-align:center;
-=======
-    background-color:#890644;
-    text-align:center;                  
->>>>>>> d17d93716ad383a6be7f456242b7a88b41697144
 }
 .Menu{
-    background-color:#F3E4AE;
-    text-align:center;
+	background-color:#F3E4AE;
+	text-align:center;
 }
 
 .Locales{
-    background-color:#F49D48;       /*colores solapas*/
-    text-align:center;
+	background-color:#F49D48;		/*colores solapas*/
+	text-align:center;
 }
 
 .Contacto{
-    background-color:#890644;
-    text-align:center;
+	background-color:#890644;
+	text-align:center;
 }
 
 .Pedidos{
-    background-color:#F3E4AE;
-    text-align:center;
+	background-color:#F3E4AE;
+	text-align:center;
 
 }
 
 .linkNav{
-    color:white;
-    position:relative;          /*acomodo links en solapa*/
-    top:1.5em;
-    text-decoration: none;
+	color:white;
+	position:relative;			/*acomodo links en solapa*/
+	top:1.5em;
+	text-decoration: none;
 }
 
 .linkNav a:hover, .linkNav a:visited, .linkNav a:active{
-<<<<<<< HEAD
 	color:#0080BB;
 	text-decoration: none;
-=======
-    color:#0080BB;  
-    text-decoration: none;
->>>>>>> d17d93716ad383a6be7f456242b7a88b41697144
 }
 
 
 #PedidosLink{
-<<<<<<< HEAD
 	position:relative;			/*acomodo links en solapa pedidos por ser mas larga*/
 	top:0em;
 }
@@ -377,12 +259,6 @@ h1{
 
 
 
-=======
-    position:relative;          /*acomodo links en solapa pedidos por ser mas larga*/   
-    top:0em;    
-}
-
->>>>>>> d17d93716ad383a6be7f456242b7a88b41697144
 
 /*****************************INICIO MAIN*************************************/
 
@@ -391,14 +267,13 @@ h1{
 	background-color: #092053;
 	border-radius: 1em;
 	margin: 0 auto;
-	margin-top:70px;
-	margin-bottom: 25px;
+	margin-top:50px;
 	padding: 15px 15px;
 	position: relative;
 	font-family: "Libel";
 	letter-spacing: 0.1em;
 	font-size: 20px;
-	height: 650px;
+	height: 600px;
 }
 
 .cat{
@@ -414,10 +289,6 @@ list-style-type: none;
 
 .cat:hover{
 	background-color:#890644;
-}
-
-.cat img {
-	border-radius: 0.5em;
 }
 
 .sub1{
@@ -552,7 +423,7 @@ list-style-type: none;
 
 h3 {
 	color: #890644;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .drop img{
@@ -573,452 +444,3 @@ h3 {
 .cat li:hover .drop {
 	display: block;
 }
-<<<<<<< HEAD
-=======
-
-
-
-/*-------------CSS DE FOOTER-------------- */
-footer {
-    background-color: #092053;
-    margin-top: 600px;
-    margin: 0 auto;
-    border-radius: 1em;
-    color: white;
-}
-.alineacion_footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px 0px;
-    font-size: 16px;
-}
-footer a {
-    margin: 10px;
-}
-.copyright {
-    font-size: 10px;
-    text-align: center;
-}
-.alto_footer {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    padding-top: 5px;
-}
-p {
-    font-family: "Avantgarde";
-}
-
-
-/*---------------MEDIA QUERIES--------------*/
-
-/* TABLET */
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .ItemsNavegador {
-        font-size: 2.5em;
-        position: relative;
-        bottom: 110px;
-        text-align: center;
-        padding: auto;
-    }
-    .ItemsNavegador:hover {
-        position: relative;
-        bottom: 75px;
-    }
-    .Pedidos:hover {
-        position: relative;
-        bottom: 20px;
-    }
-    .linkNav {
-        position: relative;
-        right: 0.1em;
-    }
-    .ItemsNavegador.Menu{
-	    position:relative;          /*BAJA SOLAPA MENU*/
-	    bottom:80px; 
-	}
-}
-@media (max-width: 992px) {
-            .ListaNavegador{
-        display:none;
-        }
-
-        .Idioma{
-            top:11em;
-            left:6vw;
-        }
-
-        h1{
-            position:absolute;
-            left:11em;
-            font-size:2em;
-        }
-
-        .logo{
-            float:left;
-        }
-
-        /* MENU */
-		
-		.main {
-			height: 100%;
-			margin: 25px 0px;
-
-		}
-
-        .cat {
-        	position: relative;
-        	width: 95%;
-        	border-radius: 0.5em;
-        }
-
-        .sub1, .sub2, .sub3 ,.sub4, .sub5 {
-			top: 0px;
-			left:-10px;
-			position: relative;
-			width: 95%;
-
-		}
-
-     	.drop {
-     		position: relative;
-     		width: 100%;
-     	}
-
-
-		.drop img{
-			width: 95%;
-			height: auto;
-		}
-
-     	.d1, .d2, .d3 {
-     		top: 0px;
-     	}
-
-}
-
-
-@media (max-width: 768px) {
-    body {
-        position: relative;
-    }
-    .dropdown {
-
-     top:12vw;
-     left:42vw;
-    }
-
-    h1{
-        position:absolute;
-        left:11em;
-        font-size:3.5vw;
-    }
-
-    .logo{
-        width:40vw;
-    }
-
-
-    #baner{
-        height:25vw;    
-    }
-
-    .dd-menu {
-        
-        width:92vw;
-        top:13vw;
-        right:-1vw;
-    }
-
-
-    .Idioma{
-        top:20vw;
-        left:6vw;
-    }
-
-    /* ---------  MENU ------------ */
-    .main {
-    	font-size: 16px;
-    } 
-
-	
-
-
-    /*-------Queries del footer--------*/
-    
-    .redes_mobile {
-        position: fixed;
-        right: -50px;
-        top: 255px;
-        z-index: 1;
-        background-color: #092053;
-        height: 250px;
-        border-radius: 5px;
-        width: 85px;
-        transition: right ease-out 0.15s;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 20px 10px;
-    }
-    .redes_mobile:hover {
-            right: 0;
-    }
-    .redes_mobile a {
-        display: block;
-        padding: 0;
-        margin: 0;
-    }
-    .media1{margin-right: 0px;
-            margin-left: 0px;}
-    .media2{padding-right: 0px;
-            padding-left: 0px;} 
-
-
-}
-
-
-
-@media (max-width:558px){
-
-    .dd-button{
-        width:10vw;
-    }
-
-    #baner{
-        height:6em;
-        min-width:408px;
-    }
-    .dropdown {
-      left:60vw;
-      top:0.5em;
-
-    }
-
-    .logo{
-        width:8em;
-    }
-
-    h1{
-        position:absolute;
-        left:10em;
-        top:0em;
-        font-size:3vw;
-    }
-
-    .dd-menu {
-        
-        width:91vw;
-        top:13vw;
-        right:-2.5vw;
-        font-size:5vw;
-        padding-top:3.8vw;
-    }
-    .Idioma{
-        top:11vw;
-        left:40vw;
-    }
-
-}
-    @media (max-width:476px){
-
-    .dd-button{
-        width:10vw;
-    }
-
-    #baner{
-        height:6em;
-        min-width:408px;
-
-        
-    }
-    .dropdown {
-      left:57vw;
-      top:0.5em;
-
-    }
-
-    .logo{
-        width:8em;
-    }
-
-    h1{
-        position:absolute;
-        left:10em;
-        top:0em;
-        font-size:3vw;
-    }
-
-    .dd-menu {
-        
-        width:91vw;
-        top:13vw;
-        right:-1vw;
-        font-size:5vw;
-        padding-top:5vw;
-    }
- /*-----------Quierie de footer--------*/  
-    .alineacion_footer {
-        font-size: 12px;
-    }
-    .copyright {
-        font-size: 12px;
-    }
-
-
-}
-
-
-@media (max-width: 429px) and (min-width:361px) {
-    body {
-        position: relative;
-    }
-        .dd-button{
-        width:0.5vw;
-    }
-
-    #baner{
-        height:6em;
-        min-width:300px;    
-    }
-
-    .dropdown {
-      left:65vw;
-      top:0.5em;
-
-    }
-
-    .logo{
-        width:26vw;
-    }
-
-    h1{
-
-        position:absolute;
-        left:9.8em;
-        top:0em;
-        font-size:2.9vw;
-    }
-
-    .dd-menu {
-        
-        width:91vw;
-        top:13vw;
-        right:-1vw;
-        font-size:5vw;
-        padding-top:8.5vw;
-    }
-
-    
-    
-    /*--------Queries del footer---------*/
-    .redes_mobile {
-        position: fixed;
-        right: -50px;
-        top: 255px;
-        background-color: #092053;
-        height: 250px;
-        border-radius: 5px;
-        width: 85px;
-        z-index: 1;
-        transition: right ease-out 0.15s;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 20px 10px;
-    }
-    .redes_mobile:hover {
-            right: 0;
-    }
-    .redes_mobile a {
-        display: block;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .alineacion_footer {
-        font-size: 12px;
-
-    }
-    .copyright {
-        font-size: 12px;
-    }
-    .media1{margin-right: 0px;
-            margin-left: 0px;}
-    .media2{padding-right: 0px;
-            padding-left: 0px;}  
-    .fondo_bordo{margin-top: 15px
-    }   
-
-  }   
-    
-
-@media (max-width:360px){
-
-    .icono{
-        display:none;
-    }
-    .icono-xs{
-        display:inline-block;
-    }
-    #baner{
-        height:5em;
-        min-width:293px;    
-    }
-    .dropdown {
-      left:55vw;
-      top:0.5em;
-
-    }
-    .logo{
-        width:6em;
-
-    }
-
-    h1{
-        position:absolute;
-        left:16em;
-        top:0em;
-        font-size:2vw;
-    }
-
-    .dd-menu {
-        
-        width:91vw;
-        top:2em;
-        right:-1vw;
-        font-size:1em;
-        padding-top:3em;
-    }
-
-    .alineacion_footer {
-        font-size: 12px;
-        margin:0px 5px;
-    }
-    .copyright {
-        font-size: 12px;
-    }
-
-    
-}
-
-@media (max-width:300px){
-    h1{
-        display:none;
-    }
-    .Idioma{
-        top:14vw;
-        left:10vw;
-    }
-    .alineacion_footer {
-        font-size: 12px;
-        
-    }
-    .copyright {
-        font-size: 12px;
-    }
-
-}
-
->>>>>>> d17d93716ad383a6be7f456242b7a88b41697144
