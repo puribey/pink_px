@@ -1,0 +1,785 @@
+@font-face {
+	font-family:"CocoGothic";
+ 	src: url(../etc/fonts/CocoGothic-BoldItalic_trial.ttf) ;
+}
+
+@font-face{
+	font-family:"CocoGothic-Light";
+	src: url(../etc/fonts/CocoGothic-Light_trial.ttf);
+}
+@font-face {
+	font-family:"Libel"; 	
+ 	src:url(../etc/fonts/libel-suit-rg_0.ttf);
+ }
+ 
+
+body{
+	background-image: url(../img/fondo.jpg);
+	background-attachment: fixed;
+}
+
+/********************** Dropdown ***************************/
+.icono-xs{
+	display:none;
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+  left:23em;
+  top:7em;
+}
+
+.dd-button {
+  display: inline-block; 
+  background-color: #092053;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+	font-size: 2em;
+	width:25em;
+	position: absolute;
+	z-index: -1;
+	top:3.3em;
+	right:-20px;
+	border-radius: 4px;
+	padding: 0;  
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+	background-color:rgba(9,32,83,1);
+	list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+
+.dd-menu li {
+ 
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li a {
+  display: block;
+
+}
+
+
+.InicioResponsive:hover{
+	background-color:rgba(137,6,68,1);
+	color:#F3E4AE;
+	text-shadow: none;
+
+
+}
+.MenuResponsive:hover{
+	background-color:rgba(243,228,174,1);
+	color:#092053;
+	text-shadow: none;
+}
+.LocalesResponsive:hover{
+	background-color:rgba(244,157,82,1);
+	color:#092053;
+	text-shadow: none;
+}
+.ContactoResponsive:hover{
+	background-color:rgba(137,6,68,1);
+	color:#F3E4AE;
+	text-shadow: none;
+}
+.PedidosResponsive:hover{
+	background-color:rgba(243,228,174,1);
+	color:#092053;
+	text-shadow: none;
+}
+/*****************************NAVEGADOR INICIO*************************************/
+
+#baner h1{
+	position:absolute;
+	top:0.7em;
+	left:1em;
+	z-index: 2;									/*titulo*/
+}
+
+nav div img{
+	float: right;  								 /*logo*/   
+
+}
+
+#baner a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+}
+
+.container{
+	margin-top:2em;					/*margen superior container*/
+}
+
+#baner{
+	background-color: #092053;
+	border-radius:1em;
+	height:190px;			/*rectangulo azul*/
+	font-family:"Libel";
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px black;
+	box-shadow: 2px 2px 5px black;
+
+}
+
+.text-cream{
+	color:#F3E4AE;				
+	font-size:1.5em;
+}
+
+.text-bordo{
+	color:#890644;					/*colores titulo*/
+	font-size:1.5em;
+}
+
+.text-naranja{
+	color:#F49D48;
+	font-size:1.5em;
+}
+
+.Idioma{
+	position:absolute;
+	z-index:2;					/*div idiomas*/
+	top:8em;
+	left:2.7em;
+}
+
+.barra:hover{
+	color:#F3E4AE;
+}
+
+.TextSizeMedio{
+	font-size:2vw;		
+
+}
+
+.ListaNavegador{
+	width:95%;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	position:absolute;					/*div todas las solapas + links*/
+	top:13em;
+	left:2em;
+	z-index:-1;
+	font-family:"Libel";
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px black;
+
+}
+
+.ItemsNavegador{
+	font-size:3em;
+	width:18%;
+	height:4em;					/*div individual cada solapa*/
+	border-radius:0.3em;
+	padding:1em;
+	position:relative;
+	bottom:130px;
+	box-shadow: 2px 2px 5px black;
+}
+.ItemsNavegador:hover{
+	position:relative;			/*hover del div individual cada solapa*/
+	bottom:100px; 
+}
+
+.ItemsNavegador.Pedidos{
+	position:relative;			/*BAJA SOLAPA PEDIDOS*/
+	bottom:35px; 
+}
+
+.Pedidos:hover{
+	position:relative;			/*hover del div individual solapa PEDIDOS que es mas larga*/
+	bottom:35px;
+}
+
+
+.Inicio{
+	background-color:#890644;
+	text-align:center;					
+}
+.Menu{
+	background-color:#F3E4AE;
+	text-align:center;
+}
+
+.Locales{
+	background-color:#F49D48;		/*colores solapas*/
+	text-align:center;
+}
+
+.Contacto{
+	background-color:#890644;
+	text-align:center;
+}
+
+.Pedidos{
+	background-color:#F3E4AE;
+	text-align:center;
+
+}
+
+.linkNav{
+	color:white;
+	position:relative;			/*acomodo links en solapa*/
+	top:1.5em;
+	text-decoration: none;
+}
+
+.linkNav a:hover, .linkNav a:visited, .linkNav a:active{
+	color:#0080BB;	
+	text-decoration: none;
+}
+
+
+#PedidosLink{
+	position:relative;			/*acomodo links en solapa pedidos por ser mas larga*/	
+	top:0em;	
+}
+
+
+ @media (min-width:992px) and (max-width:1199px){
+/*banner height:190px;	*/
+.ItemsNavegador.Pedidos{
+	position:relative;			/*BAJA SOLAPA PEDIDOS UN POCO MAS*/
+	bottom:74px; 
+}
+.ItemsNavegador{
+	font-size:2.5em;
+	position:relative;
+	bottom:110px;
+	text-align: center;
+	padding:auto;
+}
+
+.ItemsNavegador:hover{
+	position:relative;
+	bottom:75px; 
+
+}
+
+.Pedidos:hover{
+	position:relative;	
+	bottom:20px;
+}
+
+.linkNav{
+	position:relative;
+	right:0.1em;
+
+}
+}
+
+@media (max-width:992px){
+
+.ListaNavegador{
+display:none;
+}
+
+.Idioma{
+	top:11em;
+	left:6vw;
+}
+
+#baner h1{
+	position:absolute;
+	left:11em;
+	font-size:2em;
+}
+
+.logo{
+	float:left;
+}
+
+}
+
+@media (max-width:768px) and (min-width:739px){
+
+.dropdown {
+
+ top:12vw;
+ left:42vw;
+}
+
+#baner h1{
+	position:absolute;
+	left:12em;
+	font-size:3.5vw;
+}
+
+.logo{
+	width:40vw;
+}
+
+
+#baner{
+	width:94vw;
+	height:25vw;	
+}
+
+.dd-menu {
+	
+	width:92vw;
+	top:13vw;
+	right:-2vw;
+}
+
+
+.Idioma{
+	top:20vw;
+	left:6vw;
+}
+
+}
+
+
+@media (max-width:740px)  and (min-width:669px){
+.logo{
+	width:40vw;
+}
+.dropdown {
+
+ top:12vw;
+ left:42vw;
+}
+
+#baner h1{
+	position:absolute;
+	left:12em;
+	font-size:3.5vw;
+}
+
+#baner{
+	width:94vw;
+	height:25vw;	
+}
+
+.dd-menu {	
+	width:90vw;
+	top:12.5vw;
+	right:-0.5vw;
+
+}
+.Idioma{
+	top:20vw;
+	left:6vw;
+}
+
+}
+@media (max-width:668px) and (min-width:590px) {
+
+.logo{
+	width:40vw;
+}
+.dropdown {
+
+ top:12vw;
+ left:42vw;
+}
+
+#baner h1{
+	position:absolute;
+	left:12em;
+	font-size:3.5vw;
+}
+
+#baner{
+	width:94vw;
+	height:25vw;	
+}
+
+.dd-menu {	
+	width:90vw;
+	top:12.5vw;
+	right:0.5vw;
+
+}
+.Idioma{
+	top:20vw;
+	left:6vw;
+}
+
+}
+@media (max-width:589px) and (min-width:544px) {
+
+.logo{
+	width:40vw;
+}
+.dropdown {
+
+ top:12vw;
+ left:40vw;
+}
+
+#baner h1{
+	position:absolute;
+	left:12em;
+	font-size:3.5vw;
+}
+
+#baner{
+	width:94vw;
+	height:25vw;	
+}
+
+.dd-menu {	
+	width:90vw;
+	top:12.5vw;
+	right:0vw;
+
+}
+.Idioma{
+	top:20vw;
+	left:6vw;
+}
+
+}
+@media (max-width:543px) and (min-width:476px){
+
+.dd-button{
+	width:10vw;
+}
+
+#baner{
+	height:6em;
+	min-width:408px;
+}
+.dropdown { 
+  left:0vw;
+   	top:0.5em;
+	margin-left:59vw;
+}
+
+.logo{
+	width:8em;
+}
+
+#baner h1{
+	position:absolute;
+	left:10em;
+	top:0em;
+	font-size:3vw;
+}
+
+.dd-menu {
+	width:89vw;
+	top:13vw;
+	right:0vw;
+	font-size:5vw;
+	padding-top:2.5vw;
+	
+	
+}
+.Idioma{
+	top:11vw;
+	left:40vw;
+}
+
+}
+
+@media (max-width:475px) and (min-width:429px){
+
+.dd-button{
+	width:10vw;
+}
+#baner{
+	height:6em;
+	min-width:408px;
+
+	
+}
+.dropdown {
+  left:57vw;
+  top:0.5em;
+
+}
+
+.logo{
+	width:8em;
+}
+
+#baner h1{
+	position:absolute;
+	left:10em;
+	top:0em;
+	font-size:3vw;
+}
+
+.dd-menu {
+	
+	width:86vw;
+	top:13vw;
+	right:2vw;
+	font-size:5vw;
+	padding-top:5vw;
+}
+.Idioma{
+	top:11vw;
+	left:40vw;
+}
+
+}
+
+
+@media (max-width:428px) and (min-width:361px){
+
+
+.dd-button{
+	width:0.5vw;
+}
+
+#baner{
+	height:6em;
+	min-width:300px;	
+}
+
+.dropdown {
+  left:65vw;
+  top:0.5em;
+
+}
+
+.logo{
+	width:26vw;
+}
+
+#baner h1{
+
+	position:absolute;
+	left:9.8em;
+	top:0em;
+	font-size:2.9vw;
+}
+
+.dd-menu {
+	
+	width:91vw;
+	top:13vw;
+	right:-1vw;
+	font-size:5vw;
+	padding-top:8.5vw;
+}
+.Idioma{
+	top:14vw;
+	left:10vw;
+}
+}
+@media (max-width:360px) and (min-width:321px){
+
+.icono{
+	display:none;
+}
+.icono-xs{
+	display:inline-block;
+}
+.dd-button{
+	width:0.1vw;
+}
+
+#baner{
+	height:5em;
+	min-width:300px;	
+}
+
+.dropdown {
+  left:65vw;
+  top:0.5em;
+
+}
+
+.logo{
+	width:26vw;
+}
+
+#baner h1{
+
+	position:absolute;
+	left:10.5em;
+	top:0em;
+	font-size:2.9vw;
+}
+
+.dd-menu {
+	
+	width:85vw;
+	top:13vw;
+	right:2.5vw;
+	font-size:5vw;
+	padding-top:8vw;
+}
+.Idioma{
+	top:14vw;
+	left:10vw;
+}
+}
+@media (max-width:320px) and (min-width:301px){
+
+.icono{
+	display:none;
+}
+.icono-xs{
+	display:inline-block;
+}
+#baner{
+	height:5em;
+	min-width:200px;	
+}
+.dropdown {
+  left:45vw;
+  top:0.5em;
+
+}
+.logo{
+	width:6em;
+
+}
+
+#baner h1{
+	position:absolute;
+	left:13em;
+	top:0em;
+	font-size:2.4vw;
+}
+
+.dd-menu {
+	
+	width:250px;
+	top:2em;
+	right:1vw;
+	font-size:1em;
+	padding-top:3em;
+}
+.Idioma{
+	top:14vw;
+	left:10vw;
+}
+}
+
+@media (max-width:300px) and (min-width:260px){
+
+.icono{
+	display:none;
+}
+.icono-xs{
+	display:inline-block;
+}
+#baner{
+	height:5em;
+	min-width:180px;	
+}
+.dropdown {
+  left:36vw;
+  top:0.5em;
+
+}
+.logo{
+	width:6em;
+
+}
+
+#baner h1{
+display: none;
+}
+
+.dd-menu {
+	width:220px;
+	top:2em;
+	right:-1vw;
+	font-size:1em;
+	padding-top:3em;
+}
+.Idioma{
+display:none;
+}
+}
+@media (max-width:259px) and (min-width:210px){
+
+.icono{
+	display:none;
+}
+.icono-xs{
+	display:inline-block;
+}
+#baner{
+	height:5em;
+	min-width:200px;	
+}
+.dropdown {
+  left:30vw;
+  top:0.5em;
+
+}
+.logo{
+	width:6em;
+
+}
+
+#baner h1{
+display: none;
+}
+
+.dd-menu {
+	width:190px;
+	top:2em;
+	right:2vw;
+	font-size:1em;
+	padding-top:3em;
+}
+.Idioma{
+display:none;
+}
+}
+@media (max-width:209px){
+.icono{
+	display:none;
+}
+.icono-xs{
+	display:inline-block;
+}
+#baner{
+	height:5em;
+	min-width:180px;	
+}
+.dropdown {
+  left:3em;
+  top:0.5em;
+
+}
+.logo{
+	width:6em;
+
+}
+
+#baner h1{
+display: none;
+}
+
+.dd-menu {
+	
+	width:160px;
+	top:2em;
+	right:3vw;
+	font-size:1em;
+	padding-top:3em;
+}
+.Idioma{
+display:none;
+}
+}
+
+
+
+
+/*****************************NAVEGADOR FIN, SI...JURO QUE ES EL FIN*************************************/

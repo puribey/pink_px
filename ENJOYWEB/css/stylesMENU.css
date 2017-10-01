@@ -478,6 +478,7 @@ p {
 	    position:relative;          /*BAJA SOLAPA MENU*/
 	    bottom:80px; 
 	}
+    
 }
 @media (max-width: 992px) {
             .ListaNavegador{

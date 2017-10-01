@@ -1,0 +1,115 @@
+@font-face {
+	font-family:"CocoGothic";
+ 	src: url(../etc/fonts/CocoGothic-BoldItalic_trial.ttf) ;
+}
+
+@font-face{
+	font-family:"CocoGothic-Light";
+	src: url(../etc/fonts/CocoGothic-Light_trial.ttf);
+}
+@font-face {
+	font-family:"Libel";
+	src:url(../etc/fonts/libel-suit-rg_0.ttf);
+ }
+
+@font-face{
+	font-family:"avant";
+	src:url(../etc/fonts/AVANTGARDE/itc-avant-garde-gothic-std-bold-condensed-5895705e8fe31.otf);
+}
+
+#centrado{
+	background-image: url(../img/Fondo.jpg);
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.anchos{
+	width: 600px;
+	margin-top: 30px;
+	border-radius: 5px;
+	background-color: #9e1a58;
+	margin-bottom: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+#kansas{
+	height: 200px;
+	width: 270px;
+}
+
+.take{
+	width: 600px;
+	height: 100px;
+	margin-top: 30px;
+	border-radius: 5px;
+	background-color: #F3E4AE;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #092053;
+	font-size: 40px;
+}
+
+#mariposa{
+	height: 120px;
+	width: 150px;
+	margin-left: 10px;
+}
+
+.ru1{
+	display: flex;
+	justify-content: space-around;
+}
+
+.titulo{
+	font-size: 50px;
+	color:#F49D48;
+	width: 270px;
+}
+
+.tete{
+	font-size: 18px;
+	color: #F49D48;
+	width: 270px;	
+}
+
+
+.ru2{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.saavedra{
+	margin-bottom: 30px;
+}
+
+@media (max-width: 605px;)and (min-width: 500px;){
+	.anchos{
+	width: 300px;
+	margin-top: 30px;
+	border-radius: 5px;
+	background-color: #9e1a58;
+	margin-bottom: 30px;
+	/*
+	padding-top: 15px;
+	padding-bottom: 15px;*/
+	}
+
+
+#kansas{
+	height: 150px;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+}
+	
